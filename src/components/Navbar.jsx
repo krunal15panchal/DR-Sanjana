@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Logo / Name */}
         <div className="flex items-center gap-3">
             <CiMedicalCross size={30} className=""/>
-            <h1 className="text-2xl font-bold text-blue-700 pl-0.5">DR. SANJANA PANDEY</h1>
+            <h1 className="text-2xl font-bold text-blue-800 pl-0.5">DR. SANJANA PANDEY</h1>
         </div>
 
         {/* Desktop Menu */}

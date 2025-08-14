@@ -18,6 +18,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+<<<<<<< HEAD
             SANJANAKUMARI PANDEY <span className="text-blue-700">[PT]</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600 font-semibold">
@@ -25,6 +26,12 @@ const Hero = () => {
           </p>
           <p className="mt-2 text-gray-700">
             Contact: <a href="tel:+18474897462" className="text-blue-600">+1 847-489-7462</a> | Email: <a href="mailto:pandeysanjana0910@gmail.com" className="text-blue-600">pandeysanjana0910@gmail.com</a>
+=======
+            Hi, I'm <span className="text-blue-700">Dr. Sanjana Pandey</span>
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">
+            Physical Therapist | Rehabilitation Specialist
+>>>>>>> c7f6efb93e506c60ec09a231b14d0d1be0d526ec
           </p>
           <a
             href="#about"

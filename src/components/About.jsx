@@ -31,18 +31,18 @@ const About = () => {
                   <div className="font-semibold text-gray-800">Northeastern Illinois University (NEIU), Chicago</div>
                   <div className="text-gray-700">Masters in Exercise and Sports Science <span className="italic">(May 2025)</span></div>
                   <div className="text-sm text-gray-500 mt-1">Relevant Coursework:</div>
-                  <ul className="list-disc list-inside text-sm text-gray-600 ml-4">
+                  <ul className="list-disc list-inside text-sm text-gray-600 text-left sm:text-justify ml-4 sm:ml-0 lg:mx-55 md:mx-50">
                     <li>Cardiopulmonary Rehabilitation</li>
                     <li>Exercise Testing & Prescription</li>
                     <li>Human Performance</li>
                     <li>Clinical Assessment</li>
                   </ul>
                 </div>
-                <div className="">
+                <div className="items-center">
                   <div className="font-semibold text-gray-800">Charotar University of Science and Technology (CHARUSAT), India</div>
                   <div className="text-gray-700">Bachelor of Physiotherapy <span className="italic">(June 2023)</span></div>
                   <div className="text-sm text-gray-500 mt-1">Relevant Coursework:</div>
-                  <ul className="list-disc list-inside text-sm text-gray-600 ml-4">
+                  <ul className="list-disc list-inside text-sm text-gray-600 text-left sm:text-justify ml-4 sm:ml-0 lg:mx-55 md:mx-50">
                     <li>Human Anatomy</li>
                     <li>Human Physiology</li>
                     <li>Clinical Orthopedics</li>
@@ -56,7 +56,7 @@ const About = () => {
               <ul className="list-disc list-inside text-gray-600 space-y-2 text-justify mx-4">
                 <li>Basic Life Support (BLS) — American Heart Association (Current)</li>
                 <li>CPR Certification — American Heart Association (Current)</li>
-                <li>Advanced Cardiovascular Life Support (ACLS) — Planned/Within 6 months of hire</li>
+                <li>Advanced Cardiovascular Life Support (ACLS)</li>
                 <li>Pursuing ACSM Certified Clinical Exercise Physiologist (CEP)</li>
               </ul>
             </div>

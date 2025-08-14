@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://krunal15panchal.github.io/Dr-Sanjana",
+  "homepage": "https://krunal15panchal.github.io/DR-Sanjana",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.11",
     "motion": "^12.23.12",
     "react": "^19.1.0",
@@ -32,9 +33,4 @@
     "globals": "^16.3.0",
     "vite": "^7.0.4"
   }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> c7f6efb93e506c60ec09a231b14d0d1be0d526ec
 }

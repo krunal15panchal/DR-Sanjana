@@ -1,7 +1,8 @@
 // src/components/Hero.jsx
 import React from "react";
 import { motion } from "framer-motion";
-//import heroImg from "../assets/profile.jpg"; // replace with actual image
+import profileImg from "../assets/profile.png"; // Ensure you have a profile image in the specified path
+import testImg from "../assets/react.svg";
 
 const Hero = () => {
   return (
@@ -18,41 +19,32 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
-<<<<<<< HEAD
-            SANJANAKUMARI PANDEY <span className="text-blue-700">[PT]</span>
+            SANJANAKUMARI PANDEY <span className="text-blue-700"></span>
           </h2>
           <p className="mt-4 text-lg text-gray-600 font-semibold">
-            Dedicated Exercise Physiologist & Physiotherapist
+            Dedicated Exercise Physiologist & Physical 
           </p>
           <p className="mt-2 text-gray-700">
             Contact: <a href="tel:+18474897462" className="text-blue-600">+1 847-489-7462</a> | Email: <a href="mailto:pandeysanjana0910@gmail.com" className="text-blue-600">pandeysanjana0910@gmail.com</a>
-=======
-            Hi, I'm <span className="text-blue-700">Dr. Sanjana Pandey</span>
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Physical Therapist | Rehabilitation Specialist
->>>>>>> c7f6efb93e506c60ec09a231b14d0d1be0d526ec
           </p>
-          <a
-            href="#about"
-            className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-teal-700 transition-colors"
-          >
-            View CV
-          </a>
+          
         </motion.div>
 
         {/* Image */}
         <motion.div
-          className="md:w-1/2 flex justify-center mb-10 md:mb-0"
+          className="md:w-1/2 flex justify-center items-center mb-10 md:mb-0 md:pl-12 lg:pl-16"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <img
-            src="https://placehold.co/400x400?text=Dr+Sanjana+Pandey"
-            alt="Dr. Sanjana Pandey"
-            className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full shadow-lg"
-          />
+          <div className="flex items-center justify-center w-72 h-72 md:w-96 md:h-96">
+            <img
+              src={profileImg}
+              alt="Dr. Sanjana Pandey"
+              className="w-full h-full object-cover rounded-full shadow-lg border-4 border-black-600"
+              style={{ objectPosition: "center top"}}
+            />
+          </div>
         </motion.div>
       </div>
     </section>

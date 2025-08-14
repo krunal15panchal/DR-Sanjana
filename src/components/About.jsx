@@ -8,53 +8,60 @@ import { useState, useEffect } from "react";
 const About = () => {
 
   return (
-    <section
-      id="about"
-      className="py-20 bg-gray-50 scroll-mt-20"
-    >
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
-        
-        {/* Image */}
+    <section id="about" className="py-20 bg-gray-50 scroll-mt-20">
+      <div className="container mx-auto px-6 max-w-3xl">
         <motion.div
-          className="md:w-1/2 flex justify-center"
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <img
-            src="https://placehold.co/400x400?text=Dr+Sanjana+Pandey"
-            alt="Dr. Sanjana Pandey"
-            className="w-80 h-80 object-cover rounded-2xl shadow-lg"
-          />
-        </motion.div>
-
-        {/* Text */}
-        <motion.div
-          className="md:w-1/2"
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
-          <p className="text-gray-600 leading-relaxed mb-6">
-            I am Dr. Sanjana Pandey, a passionate Physical Therapist committed
-            to helping patients regain mobility and achieve a pain-free lifestyle.
-            With a strong background in rehabilitation and advanced manual therapy
-            techniques, I provide personalized care to ensure the best outcomes.
-          </p>
-
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-blue-600 mb-3">Education & Certifications</h3>
-            <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li>Bachelor of Physiotherapy (BPT) - XYZ University</li>
-              <li>Certified Manual Therapist</li>
-              <li>Specialization in Musculoskeletal Rehabilitation</li>
-            </ul>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">About Me</h2>
+          <div className="flex flex-col gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-blue-600 mb-3">Professional Summary</h3>
+              <p className="text-gray-600 leading-relaxed text-justify">
+                Dedicated and results-driven Exercise Physiologist and Physiotherapist with a Master’s in Exercise and Sports Science and extensive experience in multi-phase cardiopulmonary, musculoskeletal, neurological, and cardiovascular rehabilitation. Skilled in conducting comprehensive cardiovascular fitness assessments, monitoring vital signs, and developing individualized, evidence-based exercise prescriptions. Proven ability to lead safe and effective rehabilitation sessions, educate patients on disease risk factors and lifestyle modifications, and collaborate with physicians, nurses, and allied health professionals to optimize patient outcomes.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-blue-600 mb-3">Education</h3>
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <div className="font-semibold text-gray-800">Northeastern Illinois University (NEIU), Chicago</div>
+                  <div className="text-gray-700">Masters in Exercise and Sports Science <span className="italic">(May 2025)</span></div>
+                  <div className="text-sm text-gray-500 mt-1">Relevant Coursework:</div>
+                  <ul className="list-disc list-inside text-sm text-gray-600 ml-4">
+                    <li>Cardiopulmonary Rehabilitation</li>
+                    <li>Exercise Testing & Prescription</li>
+                    <li>Human Performance</li>
+                    <li>Clinical Assessment</li>
+                  </ul>
+                </div>
+                <div className="">
+                  <div className="font-semibold text-gray-800">Charotar University of Science and Technology (CHARUSAT), India</div>
+                  <div className="text-gray-700">Bachelor of Physiotherapy <span className="italic">(June 2023)</span></div>
+                  <div className="text-sm text-gray-500 mt-1">Relevant Coursework:</div>
+                  <ul className="list-disc list-inside text-sm text-gray-600 ml-4">
+                    <li>Human Anatomy</li>
+                    <li>Human Physiology</li>
+                    <li>Clinical Orthopedics</li>
+                    <li>PT in Sports</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-blue-600 mb-3">Certifications</h3>
+              <ul className="list-disc list-inside text-gray-600 space-y-2 text-justify mx-4">
+                <li>Basic Life Support (BLS) — American Heart Association (Current)</li>
+                <li>CPR Certification — American Heart Association (Current)</li>
+                <li>Advanced Cardiovascular Life Support (ACLS) — Planned/Within 6 months of hire</li>
+                <li>Pursuing ACSM Certified Clinical Exercise Physiologist (CEP)</li>
+              </ul>
+            </div>
           </div>
         </motion.div>
-
       </div>
     </section>
   );

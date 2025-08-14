@@ -16,7 +16,7 @@ const Contact = () => {
         >
           Contact Me
         </motion.h2>
-        <p className="text-gray-600 text-center mb-10 max-w-xl mx-auto">
+        <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
           Feel free to reach out for inquiries or collaborations. I’d love to connect with you.
         </p>
 
@@ -31,24 +31,24 @@ const Contact = () => {
             viewport={{ once: true }}
           >
             <div className="flex items-center space-x-4">
-              <FaPhoneAlt className="text-teal-600 text-2xl" />
-              <span className="text-gray-700">+1 (555) 123-4567</span>
+              <FaPhoneAlt className="text-blue-600 text-2xl" />
+              <span className="text-gray-700">+1 847-489-7462</span>
             </div>
             <div className="flex items-center space-x-4">
-              <FaEnvelope className="text-teal-600 text-2xl" />
-              <span className="text-gray-700">dr.sanjana@example.com</span>
+              <FaEnvelope className="text-blue-600 text-2xl" />
+              <span className="text-gray-700">pandeysanjana0910@gmail.com</span>
             </div>
             <div className="flex items-center space-x-4">
-              <FaMapMarkerAlt className="text-teal-600 text-2xl" />
+              <FaMapMarkerAlt className="text-blue-600 text-2xl" />
               <span className="text-gray-700">Chicago, IL, USA</span>
             </div>
 
             {/* Social Links */}
             <div className="flex space-x-6 pt-4">
-              <a href="#" className="text-teal-600 text-2xl hover:text-teal-700">
+              <a href="#" className="text-blue-600 text-2xl hover:text-blue-700">
                 <FaLinkedin />
               </a>
-              <a href="#" className="text-teal-600 text-2xl hover:text-teal-700">
+              <a href="#" className="text-blue-600 text-2xl hover:text-blue-700">
                 <FaInstagram />
               </a>
             </div>
@@ -65,21 +65,21 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
             />
             <textarea
               rows="5"
               placeholder="Your Message"
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-teal-700 transition-colors"
+              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Send Message
             </button>

@@ -5,19 +5,19 @@ import { FaHandsHelping, FaRunning, FaStethoscope } from "react-icons/fa";
 
 const services = [
   {
-    icon: <FaHandsHelping className="text-4xl text-teal-600" />,
-    title: "Manual Therapy",
-    description: "Hands-on techniques to relieve pain, improve mobility, and promote healing.",
+    icon: <FaStethoscope className="text-4xl text-blue-600" />,
+    title: "Cardiovascular Fitness Assessment",
+    description: "Comprehensive evaluation of cardiovascular health and exercise tolerance.",
   },
   {
-    icon: <FaRunning className="text-4xl text-teal-600" />,
-    title: "Sports Rehabilitation",
-    description: "Specialized therapy programs to help athletes recover and enhance performance.",
+    icon: <FaRunning className="text-4xl text-blue-600" />,
+    title: "Individualized Exercise Prescription",
+    description: "Personalized exercise plans based on evidence and patient needs.",
   },
   {
-    icon: <FaStethoscope className="text-4xl text-teal-600" />,
-    title: "Post-Surgical Rehab",
-    description: "Comprehensive care plans for safe and effective recovery after surgery.",
+    icon: <FaHandsHelping className="text-4xl text-blue-600" />,
+    title: "Rehabilitation & Counseling",
+    description: "Patient education, lifestyle counseling, and multidisciplinary care collaboration.",
   },
 ];
 
@@ -34,7 +34,7 @@ const Services = () => {
         >
           My Services
         </motion.h2>
-        <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
+        <p className="text-gray-600 mb-10 max-w-4xl mx-auto">
           Offering a range of physical therapy services tailored to individual needs for
           optimal recovery and wellness.
         </p>
